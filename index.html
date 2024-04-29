@@ -4,17 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Homepage</title>
+    <title>Status Page</title>
     <link rel="stylesheet" href="screen.css">
   </head>
   <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
+    <header>
+      <h1>Planetary Studies Status</h1>
+    </header>
+    <div class="sidenav" style="background-color: #D9D9D9; border-radius: 25px; margin: 15px;">
+      <h2 style="font-size: 50px; font-weight: bold; margin: 0px;"> " ARI " </h2>
+      <h2 style="font-size: 50px; font-weight: bold; margin: 0px;"> R-290 </h2>
+      <h3 style="font-size: 30px; font-weight:lighter; margin: 0px;"> MOON ROVER </h3>
+      <hr class="rounded">
+      <img src="ROVER.png" style="width: 175px; height: 150px; align-content: center;">
+      <h3 style="font-size: 20px; font-weight:bold; margin: 0px; margin-top: 25px;"> ROAMING TIME </h3>
+      <h3 style="font-size: 20px; font-weight:normal; margin: 0px; margin-bottom: 25px;"> 22:06:15:07:34:03 </h3>
+      <h3 style="font-size: 20px; font-weight:bold; margin:0px;"> STATUS </h3>
+      <h3 style="color: #008C2F; font-size: 20px; font-weight:normal; margin: 0px;"> Active </h3>
+    </div>
+    <div class="main">
+      <div class="card" style="background-color: #D9D9D9; border-radius: 25px;">
+        <h2 style="text-align: right;"> MOON </h2>
+        <img src="moon.png" style="width: 150px; height: 150px; float: left; margin-left: 125px;">
+      </div>
+      <div class="card" style="background-color: #D9D9D9; border-radius: 25px;">
+        <h2 style="text-align: right;"> MERCURY </h2>
+        <img src="mercury.png" style="width: 175px; height: 175px; float: left; margin-left: 125px;">
+      </div>
+      <div class="card" style="background-color: #D9D9D9; border-radius: 25px;">
+        <h2 style="text-align: right;"> JUPITER </h2>
+        <img src="jupiter.png" style="width: 150px; height: 150px; float: left; margin-left: 125px;">
+      </div>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
